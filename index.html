@@ -46,9 +46,9 @@
   }
   </style>
 </head>
-<body>
 
-<nav class="navbar navbar-default">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -60,10 +60,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Activity</a></li>
-        <li><a href="#">2015</a></li>
-        <li><a href="#">2016</a></li>
+        <li><a href="#Profile">Profile</a></li>
+        <li><a href="#Activity">Activity</a></li>
+        <li><a href="#2015">2015</a></li>
+        <li><a href="#2016">2016</a></li>
       </ul>
     </div>
   </div>
@@ -78,7 +78,7 @@
   <p>From now on, I'll introduce about myself on this page.</p>
 </div>
 
-<div class="container-fluid bg-2 text-left">
+<div id="Profile" class="container-fluid bg-2 text-left">
  <img src="KakaoTalk_20160430_210818366.jpg" align="right" alt="me" width="400" height="300">
   <h3>Profile</h3>
   <p>Name : Cha ji hyeon (Chloe)</p>
@@ -92,12 +92,12 @@
   <p>The reason why I make this page : assignment of webdesign class</p>
 </div>
 
-<div class="container-fluid bg-1 text-center">
+<div id="Activity" class="container-fluid bg-1 text-center">
   <h1>Activity</h1>
   <iframe width="754" height="380" src="https://www.youtube.com/embed/DdQum6DT_pE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="container-fluid bg-3 text-center">
+<div id="2015" class="container-fluid bg-3 text-center">
   <h2>2015</h2>
   <h4>The pictures that i have taken While 2015.</h4>     
 
@@ -145,7 +145,7 @@
 </div>
 
 
-<div class="container-fluid bg-2 text-center">
+<div id="2016" class="container-fluid bg-2 text-center">
   <h2>2016</h2>
   <h4>The pictures that i have taken While 2016.</h4>     
          
